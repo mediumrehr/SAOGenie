@@ -25,3 +25,14 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# build ignores
+firmware/SAOGenie/Build/*
+!firmware/SAOGenie/Build/Makefile
+!firmware/SAOGenie/Build/makedep.mk
+
+# jlink ignores
+firmware/SAOGenie/jlink.*
+
+# vscode ignores
+.vscode
